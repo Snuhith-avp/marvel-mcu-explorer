@@ -1,0 +1,121 @@
+.movie-details-phases {
+  padding: 20px;
+}
+
+hr {
+  margin-top: 40px;
+  border: 1px solid #222;
+}
+
+.movie-details-phase-movie {
+  display: grid;
+  grid-template-columns: 260px 1fr 320px;
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 40px;
+  background: #000000;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  position: relative;
+
+  align-items: stretch;
+  min-height: 100vh;
+}
+
+.movie-details-phase-movie h3 {
+  color: hsl(0, 100%, 50%);
+}
+
+.movie-details-left-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+
+.movie-details-left-sidebar img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.movie-details-left-sidebar p {
+  font-size: 14px;
+}
+
+.movie-details-left-sidebar ion-icon {
+  color: gold;
+  margin-left: 5px;
+}
+
+.movie-details-trailer {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 9;
+  padding: 20px;
+  background-color: hsl(0, 75%, 45%);
+  border-radius: 12px;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+}
+
+.movie-details-trailer iframe {
+  width: 100%;
+  height: 80%;
+  border: none;
+}
+
+.movie-details-right-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+
+.movie-details-right-sidebar-char ul {
+  padding-left: 18px;
+}
+
+.movie-details-right-sidebar-char li {
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.movie-details-right-sidebar-desc p {
+  line-height: 1.7;
+  height: auto;
+  font-size: 14px;
+  color: #eee;
+  text-align: justify;
+
+  /* overflow: hidden;
+  display: -webkit-box;
+  line-clamp: 6;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical; */
+}
+
+.back-btn {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  color: hsl(0, 0%, 100%);
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-btn:hover {
+  color: hsl(0, 100%, 50%);
+}
